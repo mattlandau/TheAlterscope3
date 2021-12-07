@@ -1,0 +1,3 @@
+[submodule "TheAlterscope3/Assets/Alterscope-3rd-Party-Assets"]
+	path = TheAlterscope3/Assets/Alterscope-3rd-Party-Assets
+	url = https://github.com/mattlandau/Alterscope-3rd-Party-Assets.git
