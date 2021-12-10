@@ -1049,17 +1049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5e1719799ca4f9b9f5db81449517ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bypassRoomEffects: 0
-  directivityAlpha: 0
-  directivitySharpness: 1
-  listenerDirectivityAlpha: 0
-  listenerDirectivitySharpness: 1
-  gainDb: 12
-  nearFieldEffectEnabled: 0
-  nearFieldEffectGain: 1
-  occlusionEnabled: 0
-  occlusionIntensity: 1
-  quality: 2
 --- !u!114 &243407082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2306,17 +2295,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5e1719799ca4f9b9f5db81449517ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bypassRoomEffects: 0
-  directivityAlpha: 0
-  directivitySharpness: 1
-  listenerDirectivityAlpha: 0
-  listenerDirectivitySharpness: 1
-  gainDb: 12
-  nearFieldEffectEnabled: 0
-  nearFieldEffectGain: 1
-  occlusionEnabled: 0
-  occlusionIntensity: 1
-  quality: 2
 --- !u!82 &582526100
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3504,15 +3482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29801b9d195f443dd855b8ff3ace5aac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usedFeedbackTypes:
-    SelectionChange: 0
-    ImpactLight: 1
-    ImpactMedium: 0
-    ImpactHeavy: 0
-    NotificationSuccess: 1
-    NotificationWarning: 0
-    NotificationFailure: 0
-  debug: 1
 --- !u!82 &877657546
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6474,6 +6443,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8c0c80ed8ded45e7bbc29a0ad704ac4, type: 3}
+--- !u!1 &1673712777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5104598960360261862, guid: fb30be69f313d4107b62a2b8e9618d17,
+    type: 3}
+  m_PrefabInstance: {fileID: 1333616314}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1676246044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6787,17 +6762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5e1719799ca4f9b9f5db81449517ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bypassRoomEffects: 0
-  directivityAlpha: 0
-  directivitySharpness: 1
-  listenerDirectivityAlpha: 0
-  listenerDirectivitySharpness: 1
-  gainDb: 0
-  nearFieldEffectEnabled: 0
-  nearFieldEffectGain: 1
-  occlusionEnabled: 0
-  occlusionIntensity: 1
-  quality: 2
 --- !u!82 &1726283897
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7505,7 +7469,7 @@ MonoBehaviour:
   - {fileID: 243407074}
   - {fileID: 1502969577}
   - {fileID: 808224146}
-  - {fileID: 0}
+  - {fileID: 1673712777}
   - {fileID: 839479445}
   - {fileID: 926946838}
   - {fileID: 373600639}
@@ -7526,7 +7490,7 @@ MonoBehaviour:
   MyAdjustDeskHeight: {fileID: 537234280}
   ObjectsToLower:
   - {fileID: 808224146}
-  - {fileID: 0}
+  - {fileID: 1673712777}
   - {fileID: 839479445}
   - {fileID: 1726283891}
   - {fileID: 473922006}
@@ -8534,17 +8498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7929fa5e730414cb1f18134aef71c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftWall: 0
-  rightWall: 0
-  floor: 0
-  ceiling: 0
-  backWall: 0
-  frontWall: 0
-  reflectivity: 1
-  reverbGainDb: 0
-  reverbBrightness: -0.5
-  reverbTime: 1
-  size: {x: 2, y: 3, z: 4}
 --- !u!4 &2049605407
 Transform:
   m_ObjectHideFlags: 0
