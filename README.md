@@ -5,6 +5,7 @@ This is intended to be a new AR app, based on a pervious app (Self Help Desk). C
 * DOTween
 * Toony Tiny People
 * Raw Wooden Furniture (free)
+* Resonance Audio
 * Quirky Series Forest Owl
 * iOS Haptic Feedback
 * And the SF-Pro-Display font (Apple). 
